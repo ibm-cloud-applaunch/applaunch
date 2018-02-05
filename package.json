@@ -5,6 +5,7 @@
     "homepage": "http://ibm-cloud-applaunch.github.io/applaunch",
     "dependencies": {
         "axios": "^0.17.1",
+        "@ibm/type": "^0.5.4",
         "carbon-components": "8.1.8",
         "carbon-components-react": "4.2.0",
         "carbon-icons": "6.2.0",
@@ -15,9 +16,9 @@
         "eslint-plugin-react": "7.4.0",
         "gh-pages": "^1.1.0",
         "react": "^16.2.0",
+        "react-clicketyclack": "^1.2.2",
         "react-dom": "^16.2.0",
-        "react-flexbox-grid": "^2.0.0",
-        "react-markdown": "^3.1.5"
+        "react-flexbox-grid": "^2.0.0"
     },
     "devDependencies": {
         "react-scripts": "1.1.0"

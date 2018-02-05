@@ -3,3 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.standard-padding{
+  padding: 2rem;
+}
+.ibm-text-color{
+  color: #fff;
+}
+.ibm-lblue{
+  color: #5596e6;
+}
+.ibm-blue{
+  color:#3d70b2;
+}
+.ibm-green{
+  color :#41d6c3;
+}
+
+.ibm-lblueBg{
+  background-color: #5596e6;
+}
+.ibm-blueBg{
+  background-color:#3d70b2;
+}
+.ibm-greenBg{
+  background-color :#41d6c3;
+}
