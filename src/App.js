@@ -8,10 +8,18 @@ class App extends Component {
   constructor(params) {
     super(params);
     this.showSampleDetailPage = this.showSampleDetailPage.bind(this);
+    this.hideSampleDetailPage = this.hideSampleDetailPage.bind(this);
     this.state = {
       shouldShowSampleDetails: false,
       selectedSample: {},
     };
+  }
+
+  hideSampleDetailPage() {
+    this.setState({
+      shouldShowSampleDetails: false,
+      selectedSample: {},
+    });
   }
 
   showSampleDetailPage(sample) {
@@ -26,7 +34,7 @@ class App extends Component {
       <div className="App">
 
         {this.state.shouldShowSampleDetails ?
-          <SampleDetailPage sample={this.state.selectedSample} />
+          <SampleDetailPage sample={this.state.selectedSample} cancel={this.hideSampleDetailPage} />
         :
           <div>
             <Intro />
