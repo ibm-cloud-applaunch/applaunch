@@ -10,6 +10,7 @@ const SamplesData = [
     imageUrl: '',
     githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-poll',
     readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-poll/master/README.md',
+    // readmeLink: 'https://raw.githubusercontent.com/apple/swift/master/README.md',
   },
   {
     title: 'Health Is Wealth',
@@ -30,7 +31,7 @@ const SamplesData = [
     subTitle: 'A sample app showing basic concepts of App Launch',
     imageUrl: '',
     githubLink: '',
-    readmeLink: '',
+    readmeLink: 'https://raw.githubusercontent.com/SangeetManghnani/vroom/master/README.md',
   },
 ];
 
@@ -52,7 +53,7 @@ class Samples extends Component {
           <div className="title">{sample.title}</div>
           <div className="sub-title">{sample.subTitle}</div>
         </Card>
-                      </Col>);
+      </Col>);
     });
 
     return (

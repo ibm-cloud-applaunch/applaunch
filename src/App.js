@@ -23,13 +23,16 @@ class App extends Component {
 
   render() {
     return (
-    <div className="App">
-        <Intro />
-        <Features/>
+      <div className="App">
+
         {this.state.shouldShowSampleDetails ?
           <SampleDetailPage sample={this.state.selectedSample} />
         :
-          <Samples showSampleDetail={this.showSampleDetailPage} />
+          <div>
+            <Intro />
+            <Features />
+            <Samples showSampleDetail={this.showSampleDetailPage} />
+          </div>
         }
       </div>
     );

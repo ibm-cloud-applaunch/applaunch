@@ -14,10 +14,11 @@
     display: flex;
     align-items: baseline;
 }
-.Intro .intro-text .heading p, h4{
+.Intro .intro-text .heading p{
     font-size: 3rem !important;
 }
 .Intro .intro-text .heading h4{
+    font-size: 3rem !important;
     margin-right: 0.4rem;
 }
 .Intro .intro-text .attributes{
