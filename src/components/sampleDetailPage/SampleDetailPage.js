@@ -27,10 +27,13 @@ class SampleDetailPage extends Component {
         console.log('got error');
       });
   }
+
   render() {
     return (
-      <div className="sample-detail-page">
-        <ReactMarkdown source={this.state.readmeData} />
+      <div id="markdown" className="sample-detail-page standard-padding">
+        <div className="markdown-body">
+          <ReactMarkdown source={this.state.readmeData} />
+        </div>
       </div>
     );
   }
