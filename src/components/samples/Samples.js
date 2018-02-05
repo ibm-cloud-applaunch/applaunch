@@ -8,8 +8,8 @@ const SamplesData = [
     title: 'Ask Poll',
     subTitle: 'A sample app showing basic concepts of App Launch',
     imageUrl: '',
-    githubLink: '',
-    readmeLink: '',
+    githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-poll',
+    readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-poll/master/README.md',
   },
   {
     title: 'Health Is Wealth',
@@ -52,7 +52,7 @@ class Samples extends Component {
           <div className="title">{sample.title}</div>
           <div className="sub-title">{sample.subTitle}</div>
         </Card>
-      </Col>);
+                      </Col>);
     });
 
     return (
