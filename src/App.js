@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import Intro from './components/intro/Intro';
+import Intro from './components/intro/Intro.jsx';
+import Features from './components/features/Features';
 
 class App extends Component {
   render() {
     return (
-      <div className="App" />
+    <div className="App">
+        <Intro />
+        <Features/>
+      </div>
     );
   }
 }
