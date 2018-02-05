@@ -137,40 +137,40 @@
 /*=============================================
 [ Hover Styles ]
 ==============================================*/
-.rocket_wrap:hover .rocket_base {
+.rocket_wrap .rocket_base {
     fill: #FFFFFF !important;
     stroke-width: 0px !important;
 }
-.rocket_wrap:hover .rocket_shadow {
+.rocket_wrap .rocket_shadow {
     fill: #EDEDED !important;
     stroke-width: 0px !important;
 }
-.rocket_wrap:hover .icon_circle {
+.rocket_wrap .icon_circle {
     fill: #282e3a !important;
     stroke: #fff !important;
     stroke-width: 7px !important;
 }
-.rocket_wrap:hover .small_window_path {
+.rocket_wrap .small_window_path {
     fill: #28B767 !important;
     stroke-width: 0px !important;
 }
-.rocket_wrap:hover .wing_shadow {
+.rocket_wrap .wing_shadow {
     display: block !important;
     fill: #FC9252 !important;
 }
-.rocket_wrap:hover .wing_base {
+.rocket_wrap .wing_base {
     fill: #E16E36 !important;
     stroke-width: 0px !important;
 }
-.rocket_wrap:hover .rocket_bottom {
+.rocket_wrap .rocket_bottom {
     fill: #2DCB73 !important;
     stroke-width: 0px !important;
 }
-.rocket_wrap:hover .large_window_path {
+.rocket_wrap .large_window_path {
     fill: url(#SVGID_2_) !important;
     stroke-width: 0px !important;
 }
-.rocket_wrap:hover .rocket_inner { transform: translateY(0px) translateX(-3px) !important; }
+.rocket_wrap .rocket_inner { transform: translateY(0px) translateX(-3px) !important; }
 
 /*=============================================
 [ Animation Classes ]
@@ -186,32 +186,32 @@
     transform-origin: 50% 50%;
     animation-direction: normal;
 }
-.rocket_wrap:hover #fireLeft {
+.rocket_wrap #fireLeft {
     display: block;
     animation-delay: 0s;
     animation-name: fireLeft, fillOpacity1;
     animation-duration: 1.2s;
 }
-.rocket_wrap:hover #fireMiddle {
+.rocket_wrap #fireMiddle {
     display: block;
     animation-delay: 0s;
     animation-name: fireMiddle, fillOpacity1;
     animation-duration: 1s;
 }
-.rocket_wrap:hover #fireRight {
+.rocket_wrap #fireRight {
     display: block;
     animation-delay: 0s;
     animation-name: fireRight, fillOpacity1;
     animation-duration: 1.3s;
 }
-.rocket_wrap:hover #fireSmallLeft {
+.rocket_wrap #fireSmallLeft {
     display: block;
     animation-delay: 0s;
     animation-name: fireSmall, fillOpacity2;
     animation-duration: 1.3s;
     transform-origin: bottom;
 }
-.rocket_wrap:hover #fireSmallRight {
+.rocket_wrap #fireSmallRight {
     display: block;
     animation-delay: 0.3s;
     animation-name: fireSmall, fillOpacity3;
