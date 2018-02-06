@@ -15,8 +15,8 @@ const SamplesData = [
     title: 'Health Is Wealth',
     subTitle: 'A sample app showing basic concepts of App Launch',
     imageUrl: '',
-    githubLink: '',
-    readmeLink: '',
+    githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-healthwealth',
+    readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-healthwealth/master/README.md',
   },
   {
     title: 'New Flash',
@@ -57,7 +57,7 @@ class Samples extends Component {
             {sample.subTitle}
           </CardText>
         </Card>
-      </Col>);
+                      </Col>);
     });
 
     return (

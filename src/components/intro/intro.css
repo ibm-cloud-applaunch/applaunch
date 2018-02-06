@@ -9,9 +9,10 @@
     height: 100%;
 }
 .Intro .intro-text .about{
-    font-weight: 900;
+    font-weight: 200;
     font-size: 2.25rem;
     line-height: 1.35em;
+    font-family: 'Merriweather' !important;
 }
 .Intro .intro-text div{
     margin-bottom: 1rem;
@@ -26,6 +27,7 @@
 .Intro .intro-text .heading h4{
     font-size: 3rem !important;
     margin-right: 0.4rem;
+    font-family: 'Merriweather';
 }
 .Intro .intro-text .attributes{
     display: flex;
