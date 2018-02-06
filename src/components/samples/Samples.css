@@ -1,5 +1,4 @@
 .samples-container{
-    margin: 2rem;
 }
 
 .samples-container .row{
@@ -44,7 +43,7 @@
     outline: none !important;
 }
 
-.samples-container .custom-card:after {
+/* .samples-container .custom-card:after {
     content: "";
     position: absolute;
     top: -110%;
@@ -73,7 +72,7 @@
     transition-property: left, top, opacity;
     transition-duration: 0.7s, 0.7s, 0.15s;
     transition-timing-function: ease;
-  }
+  } */
   
   /* Active state */
   
