@@ -2,12 +2,18 @@
     /* text-align: center */
 }
 
+.back-icon{
+    text-align: center;
+    padding-right: 0.6rem;
+    cursor: pointer;
+}
+
 #markdown {
     position: relative;
     padding: 30px;
     background: #fff;
     margin: 30px;
-    margin-top: 130px;
+    margin-top: 40px;
     border-radius: 6px;
   }
   #markdown .repo-info-wrapper .star {

@@ -10,7 +10,6 @@ const SamplesData = [
     imageUrl: '',
     githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-poll',
     readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-poll/master/README.md',
-    // readmeLink: 'https://raw.githubusercontent.com/apple/swift/master/README.md',
   },
   {
     title: 'Health Is Wealth',

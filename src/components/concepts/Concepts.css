@@ -1,0 +1,19 @@
+.concepts-container{
+    margin: 2rem;
+}
+
+.concepts-container .row{
+    width: 100%;
+}
+
+.concepts-container .concepts-header{
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 3.4rem;
+}
+
+.concepts-container .concepts-subheader{
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+}
