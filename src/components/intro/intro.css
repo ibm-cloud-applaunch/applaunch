@@ -2,6 +2,12 @@
     color: #fff;
     background: #41d6c3;
 }
+.Intro .intro-image{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
 .Intro .intro-text .about{
     font-weight: 900;
     font-size: 2.25rem;
@@ -30,11 +36,13 @@
     margin-right: 0.5rem;
     font-weight: 100;
     font-size: 2rem;
+    display: block;
 }
 
 .Intro .intro-text .attributes span{
     font-weight: 900;
     font-size: 2rem;
+    display: block;
 }
 
 
@@ -317,4 +325,82 @@
     0% { transform: translateY(0px) }
     100% { transform: translateY(20px) }
 }
-	
+@media only screen and (min-width : 320px) {
+    .Intro .intro-text .attributes p{
+        display: none;
+    }
+    .Intro .intro-text .attributes span{
+        display: none;
+    }
+    .intro-image{
+        display: none;
+        height: 0;
+    }
+} 
+
+@media only screen and (min-width : 480px) and (max-width : 640px) {
+    .Intro .intro-text .attributes p{
+        margin-right: 0.5rem;
+        font-weight: 100;
+        font-size: 0.9rem;
+        display: block;
+    }
+    .Intro .intro-text .attributes span{
+        margin-right: 0.5rem;
+        font-weight: 900;
+        font-size: 0.9rem;
+        display: block;
+    }
+    .Intro .intro-image{
+        display: none;
+        height: 0;
+    } 
+}
+@media only screen and (min-width : 640px) and (max-width : 768px) {
+    .Intro .intro-text .attributes p{
+        margin-right: 0.5rem;
+        font-weight: 100;
+        font-size: 1.2rem;
+        display: block;
+    }
+    .Intro .intro-text .attributes span{
+        margin-right: 0.5rem;
+        font-weight: 900;
+        font-size: 1.2rem;
+        display: block;
+    }
+    .Intro .intro-image{
+        display: none;
+        height: 100%;
+    } 
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+/* Styles */
+    .Intro .intro-text .attributes p{
+        margin-right: 0.5rem;
+        font-weight: 100;
+        font-size: 1.5rem;
+        display: block;
+    }
+    .Intro .intro-text .attributes span{
+        margin-right: 0.5rem;
+        font-weight: 900;
+        font-size: 1.5rem;
+        display: block;
+    }       
+}
+@media only screen and (min-width : 1024px) {
+    .Intro .intro-text .attributes p{
+        margin-right: 0.5rem;
+        font-weight: 100;
+        font-size: 1.5rem;
+        display: block;
+    }
+    .Intro .intro-text .attributes span{
+        margin-right: 0.5rem;
+        font-weight: 900;
+        font-size: 1.5rem;
+        display: block;
+    }      
+}
+    

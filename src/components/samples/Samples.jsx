@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { Card } from 'carbon-components-react';
+import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import './Samples.css';
 
 const SamplesData = [
@@ -49,10 +49,15 @@ class Samples extends Component {
     SamplesData.map((sample, index) => {
       sampleList.push(<Col lg={3} md={4} sm={6} xs={12} key={index}>
         <Card className="custom-card" onClick={() => this.props.showSampleDetail(sample)}>
-          <div className="title">{sample.title}</div>
-          <div className="sub-title">{sample.subTitle}</div>
+          <CardMedia>
+            <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/askpoll.png" alt="" />
+          </CardMedia>
+          <CardTitle title={sample.title} />
+          <CardText>
+            {sample.subTitle}
+          </CardText>
         </Card>
-      </Col>);
+                      </Col>);
     });
 
     return (
@@ -64,20 +69,17 @@ class Samples extends Component {
 
   render() {
     return (
-      <Grid fluid className="samples-container ibm-greenBg">
-        <Row>
+      <div className="samples-container ibm-greenBg standard-padding">
+        <Row >
           <div >
             <p className="samples-header ibm-text-color">Samples</p>
             <p className="samples-subheader ibm-text-color">To get you started quickly!</p>
           </div>
         </Row>
-        <br />
         <Row className="samples-card-container">
           {this.renderSamplesCards()}
         </Row>
-
-      </Grid>
-
+      </div>
     );
   }
 }

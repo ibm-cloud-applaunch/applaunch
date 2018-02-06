@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Intro from './components/intro/Intro';
 import Features from './components/features/Features';
 import Concepts from './components/concepts/Concepts';
@@ -33,8 +34,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
-        {this.state.shouldShowSampleDetails ?
+        <MuiThemeProvider>
+          {this.state.shouldShowSampleDetails ?
           <SampleDetailPage sample={this.state.selectedSample} cancel={this.hideSampleDetailPage} />
         :
           <div>
@@ -44,6 +45,7 @@ class App extends Component {
             <Samples showSampleDetail={this.showSampleDetailPage} />
           </div>
         }
+        </MuiThemeProvider>
       </div>
     );
   }

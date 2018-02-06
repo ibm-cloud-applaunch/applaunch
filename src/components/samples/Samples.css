@@ -19,10 +19,11 @@
 
 
 .samples-container .custom-card{
-    border-radius: 1rem;
     width: 100% !important;
-    padding: 1rem;
     cursor: pointer;
+}
+.samples-container .custom-card div:last-child{
+    padding-top: 0rem !important;
 }
 
 .samples-container .custom-card .title{
