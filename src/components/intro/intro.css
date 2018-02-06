@@ -1,6 +1,9 @@
 .Intro{
     color: #fff;
     background: #41d6c3;
+    z-index: 1;
+    background-image: url("https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/background.jpg");background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(43, 44, 44, 0.68);
 }
 .Intro .intro-image{
     align-items: flex-end;
@@ -46,6 +49,7 @@
     font-size: 2rem;
     display: block;
 }
+
 
 
 /* svg css */
