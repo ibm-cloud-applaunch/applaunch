@@ -7,7 +7,7 @@ const SamplesData = [
   {
     title: 'Ask Poll',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: '',
+    imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/askpoll.png',
     githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-poll',
     readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-poll/master/README.md',
   },
@@ -48,7 +48,11 @@ class Samples extends Component {
     const sampleList = [];
     SamplesData.map((sample, index) => {
       sampleList.push(<Col lg={3} md={4} sm={6} xs={12} key={index}>
-        <Card className="custom-card" onClick={() => this.props.showSampleDetail(sample)}>
+        <Card
+          className="custom-card"
+          onClick={() => this.props.showSampleDetail(sample)}
+          style={{ 'background-image': `url(${sample.imageUrl})`, 'background-size': 'cover' }}
+        >
           <div className="title">{sample.title}</div>
           <div className="sub-title">{sample.subTitle}</div>
         </Card>

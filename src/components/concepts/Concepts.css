@@ -9,11 +9,25 @@
 .concepts-container .concepts-header{
     text-align: left;
     margin-left: 2rem;
-    font-size: 3.4rem;
+    font-size: 2rem;
 }
 
 .concepts-container .concepts-subheader{
     text-align: left;
     margin-left: 2rem;
-    font-size: 1.8rem;
+    font-size: 0.7864rem;
+    font-weight: 900;
+}
+
+.concepts-container .concepts-body{
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.slider{
+    
+        min-height: 0;
+        min-width: 0;
+     
 }
