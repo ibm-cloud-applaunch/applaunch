@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Intro from './components/intro/Intro.jsx';
+import Intro from './components/intro/Intro';
 import Features from './components/features/Features';
+import Concepts from './components/concepts/Concepts';
 import Samples from './components/samples/Samples';
 import SampleDetailPage from './components/sampleDetailPage/SampleDetailPage';
 
@@ -39,6 +40,7 @@ class App extends Component {
           <div>
             <Intro />
             <Features />
+            <Concepts />
             <Samples showSampleDetail={this.showSampleDetailPage} />
           </div>
         }

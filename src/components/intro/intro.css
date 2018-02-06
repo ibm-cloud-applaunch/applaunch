@@ -24,6 +24,7 @@
 .Intro .intro-text .attributes{
     display: flex;
     align-items: baseline;
+    padding: 1rem;
 }
 .Intro .intro-text .attributes p{
     margin-right: 0.5rem;
