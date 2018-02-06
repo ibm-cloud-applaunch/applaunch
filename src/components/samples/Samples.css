@@ -7,13 +7,14 @@
 
 .samples-container .samples-header{
     text-align: left;
-    margin-left: 2rem;
     font-size: 3.4rem;
+    padding: 0;
+    margin: 0;
 }
 
 .samples-container .samples-subheader{
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 0;
     font-size: 1.8rem;
 }
 
@@ -21,6 +22,7 @@
 .samples-container .custom-card{
     width: 100% !important;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 .samples-container .custom-card div:last-child{
     padding-top: 0rem !important;
