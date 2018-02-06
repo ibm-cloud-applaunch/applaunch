@@ -7,10 +7,11 @@
 .Features .heading{
     width: 100%;
     margin: 0;
-   
+    
 }
 .Features .heading  h4{
     font-size:3rem;
+    font-weight: 200;
 }
 .Features .feature-item .icon{
     width: 50%;

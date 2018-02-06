@@ -22,35 +22,32 @@ class Concepts extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       centerMode: true,
+      autoplay: true,
+      arrows: true,
     };
     return (
       <Grid fluid className="concepts-container">
         <Row>
-          {/* <div >
-            <p className="concepts-header">Core Concepts</p>
-            <p className="concepts-subheader">To help you quickly understand AppLaunch!</p>
-          </div> */}
-
           <Slider {...settings} className="slider">
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-body">A feature denotes a distinctive capability or characteristics of an application.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
-              <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-header">Audience</p>
+              <p className="concepts-body"> An audience is a collection of attributes that define the characteristics of a user segment.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
-              <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-header">Engagement</p>
+              <p className="concepts-body">Represents rolling out the feature in question to the selected audience segment at a specific time. What (Feature) > Who (Audience) > When (Time).</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
-              <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-header">Metrics</p>
+              <p className="concepts-body">Metrics is the key performance indicator for a feature.</p>
             </div>
           </Slider>
         </Row>
