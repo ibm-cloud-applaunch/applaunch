@@ -2,6 +2,11 @@
     /* text-align: center */
 }
 
+.sample-detail-page .github{
+  margin-left:4rem;
+  cursor: pointer;
+}
+
 .back-icon{
     text-align: center;
     padding-right: 0.6rem;
@@ -10,10 +15,13 @@
 
 #markdown {
     position: relative;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     background: #fff;
-    margin: 30px;
-    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 6px;
   }
   #markdown .repo-info-wrapper .star {

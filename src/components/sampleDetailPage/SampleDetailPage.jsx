@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import { Row, Col } from 'react-flexbox-grid';
 import { Icon } from 'carbon-components-react';
 import axios from 'axios';
+import { GoMarkGithub } from 'react-icons/lib/go';
 import './SampleDetailPage.css';
 
 class SampleDetailPage extends Component {
@@ -12,6 +13,7 @@ class SampleDetailPage extends Component {
       readmeData: '',
     };
     this.getReadmeData = this.getReadmeData.bind(this);
+    this.openGithubUrl = this.openGithubUrl.bind(this);
   }
   componentDidMount() {
     this.getReadmeData();
@@ -30,6 +32,14 @@ class SampleDetailPage extends Component {
       });
   }
 
+
+  openGithubUrl(e, url) {
+    e.preventDefault();
+    window.open('https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-applaunch', '_blank');
+    window.close();
+    return false;
+  }
+
   render() {
     return (
       <div className="sample-detail-page standard-padding">
@@ -39,6 +49,15 @@ class SampleDetailPage extends Component {
           </Col>
           <Col xs={11}>
             <h2>IBM Cloud App Launch</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="github">
+            <GoMarkGithub
+              size={48}
+              color="#006eb0"
+              onClick={e => this.openGithubUrl(e, this.props.sample.githubLink)}
+            />
           </Col>
         </Row>
 
