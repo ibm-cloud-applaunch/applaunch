@@ -7,28 +7,28 @@ const SamplesData = [
   {
     title: 'Ask Poll',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/askpoll.png',
+    imageUrl: 'https://i.imgur.com/atnYuU8.png',
     githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-poll',
     readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-poll/master/README.md',
   },
   {
     title: 'Health Is Wealth',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: '',
-    githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-healthwealth',
-    readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-healthwealth/master/README.md',
+    imageUrl: 'https://i.imgur.com/vpuePfL.png',
+    githubLink: '',
+    readmeLink: '',
   },
   {
     title: 'New Flash',
+    imageUrl: 'https://i.imgur.com/NzKp9iW.png',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: '',
     githubLink: '',
     readmeLink: '',
   },
   {
     title: 'Bike Rental',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: '',
+    imageUrl: 'https://i.imgur.com/y6ryadJ.png',
     githubLink: '',
     readmeLink: 'https://raw.githubusercontent.com/SangeetManghnani/vroom/master/README.md',
   },
@@ -50,14 +50,14 @@ class Samples extends Component {
       sampleList.push(<Col lg={3} md={4} sm={6} xs={12} key={index}>
         <Card className="custom-card" onClick={() => this.props.showSampleDetail(sample)}>
           <CardMedia>
-            <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/askpoll.png" alt="" />
+            <img src={sample.imageUrl} alt="" />
           </CardMedia>
           <CardTitle title={sample.title} />
           <CardText>
             {sample.subTitle}
           </CardText>
         </Card>
-                      </Col>);
+      </Col>);
     });
 
     return (
