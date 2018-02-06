@@ -64,11 +64,11 @@ class Samples extends Component {
 
   render() {
     return (
-      <Grid fluid className="samples-container">
+      <Grid fluid className="samples-container ibm-greenBg">
         <Row>
           <div >
-            <p className="samples-header">Samples</p>
-            <p className="samples-subheader">To get you started quickly!</p>
+            <p className="samples-header ibm-text-color">Samples</p>
+            <p className="samples-subheader ibm-text-color">To get you started quickly!</p>
           </div>
         </Row>
         <br />
