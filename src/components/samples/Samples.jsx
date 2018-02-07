@@ -7,28 +7,28 @@ const SamplesData = [
   {
     title: 'Ask Poll',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: 'https://i.imgur.com/atnYuU8.png',
+    imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/askpoll.png',
     githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-poll',
     readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-poll/master/README.md',
   },
   {
     title: 'Health Is Wealth',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: 'https://i.imgur.com/vpuePfL.png',
-    githubLink: '',
-    readmeLink: '',
+    imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/health.png',
+    githubLink: 'https://github.com/ibm-cloud-applaunch/sample-swift-healthwealth',
+    readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/sample-swift-healthwealth/master/README.md',
   },
   {
-    title: 'New Flash',
-    imageUrl: 'https://i.imgur.com/NzKp9iW.png',
+    title: 'Fast News',
+    imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/fastnews.png',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    githubLink: '',
-    readmeLink: '',
+    githubLink: 'https://github.com/ibm-cloud-applaunch/fast-news',
+    readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/fast-news/app-customisation/README.md',
   },
   {
     title: 'Bike Rental',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    imageUrl: 'https://i.imgur.com/y6ryadJ.png',
+    imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/vroom.png',
     githubLink: '',
     readmeLink: 'https://raw.githubusercontent.com/SangeetManghnani/vroom/master/README.md',
   },
@@ -69,7 +69,7 @@ class Samples extends Component {
 
   render() {
     return (
-      <div className="samples-container  standard-padding fourth-section-color">
+      <div className="samples-container standard-padding fourth-section-color">
         <Row >
           <div >
             <p className="samples-header ibm-text-color">Samples</p>

@@ -1,27 +1,43 @@
 .concepts-container{
+    color: #fff;
 }
 
 .concepts-container .row{
     width: 100%;
 }
 
-.concepts-container .concepts-header{
-    text-align: left;
-    margin-left: 2rem;
-    font-size: 2rem;
+.concepts-container .heading{
+    font-weight: 100;
+    font-size: 3rem;
+    margin-top: 0.5rem;
 }
-
+.concepts-container .concepts-header{
+    font-size: 2rem;
+    margin: 0;
+}
+.concepts-container .slick-next{
+    right: -1rem;
+    width: 30px;
+    height: 30px;
+}
+.slick-next:before, .slick-prev:before{
+    font-size: 25px;
+}
+.concepts-container .slick-prev{
+    left: -1rem;
+    width: 30px;
+    height: 30px;
+}
+/* 
 .concepts-container .concepts-subheader{
     text-align: left;
-    margin-left: 2rem;
-    font-size: 0.7864rem;
     font-weight: 900;
-}
+    font-size: 3rem;
+    margin-top: 0.5rem;
+} */
 
 .concepts-container .concepts-body{
-    text-align: left;
-    margin-left: 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .slider{

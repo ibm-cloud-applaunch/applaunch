@@ -31,14 +31,15 @@ body {
 }
 
 .first-section-color{
-  background-color: #48466D ;
 }
 .second-section-color{
-  background-color: #3D84A8;
+  background-color: #48466D ;
 }
 .third-section-color{
-  background-color: #46CDCF;
+  background-color: #3D84A8;
+  /* background-color: #46CDCF; */
 }
 .fourth-section-color{
-  background-color: #ABEDD8;
+  background-color: #41d6c3;
+  /* background-color: #ABEDD8; */
 }
