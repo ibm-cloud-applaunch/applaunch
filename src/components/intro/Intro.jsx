@@ -32,7 +32,8 @@ class Intro extends Component {
         </Row>
         </Col>
         <Col className="intro-image" xs={1} lg={6} md={6} >
-          <div className="" dangerouslySetInnerHTML={{ __html: rocket }} />
+          {/* <div className="" dangerouslySetInnerHTML={{ __html: rocket }} /> */}
+          <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png"/>
         </Col>
         
       </Row>
