@@ -32,12 +32,12 @@ class Concepts extends Component {
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Features</p>
-              <p className="concepts-body">A feature denotes a distinctive capability or characteristics of an application.</p>
+              <p className="concepts-body">A feature denotes a distinctive capability or characteristics of an application. You can also define a set of properties of the feature which can define the behavior of the feature.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Audience</p>
-              <p className="concepts-body"> An audience is a collection of attributes that define the characteristics of a user segment.</p>
+              <p className="concepts-body"> An audience is a collection of attributes that define the characteristics of a user segment. Attributes are individual characteristics of the user. The allowed values of the attributes constitue the audience.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
@@ -47,7 +47,7 @@ class Concepts extends Component {
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Metrics</p>
-              <p className="concepts-body">Metrics is the key performance indicator for a feature.</p>
+              <p className="concepts-body">Metrics is the key performance indicator for a feature or In-App message. This will help you decide the performance of the engagements.</p>
             </div>
           </Slider>
         </Row>
