@@ -69,7 +69,7 @@ class Samples extends Component {
 
   render() {
     return (
-      <div className="samples-container ibm-greenBg standard-padding">
+      <div className="samples-container  standard-padding fourth-section-color">
         <Row >
           <div >
             <p className="samples-header ibm-text-color">Samples</p>

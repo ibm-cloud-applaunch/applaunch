@@ -24,8 +24,7 @@ class Concepts extends Component {
       centerMode: true,
     };
     return (
-      <Grid fluid className="concepts-container">
-        <Row>
+        <Row className="concepts-container third-section-color">
           {/* <div >
             <p className="concepts-header">Core Concepts</p>
             <p className="concepts-subheader">To help you quickly understand AppLaunch!</p>
@@ -35,26 +34,25 @@ class Concepts extends Component {
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-body">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-body">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-body">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.</p>
             </div>
             <div>
               <p className="concepts-subheader">CORE CONCEPTS</p>
               <p className="concepts-header">Features</p>
-              <p className="concepts-body">Core Concepts</p>
+              <p className="concepts-body">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.</p>
             </div>
           </Slider>
         </Row>
-      </Grid>
     );
   }
 }
