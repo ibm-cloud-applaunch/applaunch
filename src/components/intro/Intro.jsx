@@ -24,16 +24,17 @@ class Intro extends Component {
           </div>
           <div className="about ibm-type-serif">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.
           </div>
-        </Col>
-        <Col className="intro-image" xs={1} lg={6} md={6} >
-          <div className="" dangerouslySetInnerHTML={{ __html: rocket }} />
-        </Col>
-        <Row className="intro-text">
+          <Row className="intro-text">
           <Col className="attributes">
             <p>AppLaunch helps you </p>
             <ClicketyClack lines={attributes} eraseSpeed={13} pause={400} erase repeat />
           </Col>
         </Row>
+        </Col>
+        <Col className="intro-image" xs={1} lg={6} md={6} >
+          <div className="" dangerouslySetInnerHTML={{ __html: rocket }} />
+        </Col>
+        
       </Row>
     );
   }
