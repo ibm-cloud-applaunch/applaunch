@@ -2,7 +2,7 @@
     "name": "applaunch",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://ibm-cloud-applaunch.github.io/applaunch",
+    "homepage": "http://ibm-cloud-applaunch.github.io",
     "dependencies": {
         "@ibm/type": "^0.5.4",
         "axios": "^0.17.1",
