@@ -22,7 +22,7 @@ class Intro extends Component {
             <h4 className="ibm-type-b">IBM</h4>
             <p className="ibm-type-light">AppLaunch</p>
           </div>
-          <div className="about ibm-type-serif">Take control of feature releases to mobile application. Control who,when and how aspects of your app features with App Launch. Gain insights by partnering with your end users early and often.
+          <div className="about ibm-type-serif">Take control of feature releases to mobile applications. Control who,when and how aspects of your app features with App Launch. Gain insights by partnering with your end users early and often.
           </div>
           <Row className="intro-text">
             <Col className="attributes">
