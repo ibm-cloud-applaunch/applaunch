@@ -28,7 +28,7 @@ class Concepts extends Component {
     return (
       <Row className="concepts-container third-section-color standard-padding">
         <Row>
-          <h4 className="heading">CORE CONCEPTS</h4>
+          <h4 className="heading">What AppLaunch Offers</h4>
         </Row>
         <Slider {...settings} className="slider">
           <div>

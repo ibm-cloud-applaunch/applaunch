@@ -13,7 +13,7 @@ class Features extends Component {
     return (
       <Row className="Features standard-padding second-section-color ibm-text-color">
         <Row className="heading">
-          <h4>What AppLaunch Offers</h4>
+          <h4>Core Concepts</h4>
         </Row>
         <Col lg={4} md={4} xs={12} className="feature-item">
           <div className="icon" dangerouslySetInnerHTML={{ __html: featureIcon }} />
