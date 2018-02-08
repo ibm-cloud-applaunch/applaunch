@@ -4,6 +4,18 @@ import ClicketyClack from 'react-clicketyclack';
 import '../intro/intro.css';
 
 class Intro extends Component {
+  constructor(props) {
+    super(props);
+    this.openAppLaunch = this.openAppLaunch.bind(this);
+  }
+
+  openAppLaunch(e) {
+    e.preventDefault();
+    window.open('https://console.bluemix.net/catalog/services/app-launch?taxonomyNavigation=apps', '_blank');
+    window.close();
+    return false;
+  }
+
   render() {
     const attributes = [
       'launch new features quickly.',
@@ -33,7 +45,11 @@ class Intro extends Component {
         </Col>
         <Col className="intro-image" xs={1} lg={6} md={6} >
           {/* <div className="" dangerouslySetInnerHTML={{ __html: rocket }} /> */}
-          <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png" />
+          <img
+            src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png"
+            onClick={e => this.openAppLaunch(e)}
+            style={{ cursor: 'pointer' }}
+          />
         </Col>
 
       </Row>
