@@ -22,20 +22,20 @@ class Intro extends Component {
             <h4 className="ibm-type-b">IBM</h4>
             <p className="ibm-type-light">AppLaunch</p>
           </div>
-          <div className="about ibm-type-serif">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.
+          <div className="about ibm-type-serif">Take control of feature releases to mobile application. Control who,when and how aspects of your app features with App Launch. Gain insights by partnering with your end users early and often.
           </div>
           <Row className="intro-text">
-          <Col className="attributes">
-            <p>AppLaunch helps you </p>
-            <ClicketyClack lines={attributes} eraseSpeed={13} pause={400} erase repeat />
-          </Col>
-        </Row>
+            <Col className="attributes">
+              <p>AppLaunch helps you </p>
+              <ClicketyClack lines={attributes} eraseSpeed={13} pause={400} erase repeat />
+            </Col>
+          </Row>
         </Col>
         <Col className="intro-image" xs={1} lg={6} md={6} >
           {/* <div className="" dangerouslySetInnerHTML={{ __html: rocket }} /> */}
-          <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png"/>
+          <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png" />
         </Col>
-        
+
       </Row>
     );
   }
