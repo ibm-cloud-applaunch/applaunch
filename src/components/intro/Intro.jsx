@@ -4,6 +4,18 @@ import ClicketyClack from 'react-clicketyclack';
 import '../intro/intro.css';
 
 class Intro extends Component {
+  constructor(props) {
+    super(props);
+    this.openAppLaunch = this.openAppLaunch.bind(this);
+  }
+
+  openAppLaunch(e) {
+    e.preventDefault();
+    window.open('https://console.bluemix.net/catalog/services/app-launch?taxonomyNavigation=apps', '_blank');
+    window.close();
+    return false;
+  }
+
   render() {
     const attributes = [
       'launch new features quickly.',
@@ -22,7 +34,7 @@ class Intro extends Component {
             <h4 className="ibm-type-b">IBM</h4>
             <p className="ibm-type-light">AppLaunch</p>
           </div>
-          <div className="about ibm-type-serif">You can now accelerate the delivery of innovations to mobile apps in real-time by avoiding release cycle complexities.
+          <div className="about ibm-type-serif">Take control of feature releases to mobile applications. Control who,when and how aspects of your app features with App Launch. Gain insights by partnering with your end users early and often.
           </div>
           <Row className="intro-text">
             <Col className="attributes">
@@ -33,7 +45,11 @@ class Intro extends Component {
         </Col>
         <Col className="intro-image" xs={1} lg={6} md={6} >
           {/* <div className="" dangerouslySetInnerHTML={{ __html: rocket }} /> */}
-          <img src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png" />
+          <img
+            src="https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/applaunch-logo.png"
+            onClick={e => this.openAppLaunch(e)}
+            style={{ cursor: 'pointer' }}
+          />
         </Col>
 
       </Row>
