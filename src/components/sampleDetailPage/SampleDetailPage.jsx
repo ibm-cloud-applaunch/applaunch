@@ -35,7 +35,7 @@ class SampleDetailPage extends Component {
 
   openGithubUrl(e, url) {
     e.preventDefault();
-    window.open('https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-applaunch', '_blank');
+    window.open(url, '_blank');
     window.close();
     return false;
   }
@@ -58,6 +58,11 @@ class SampleDetailPage extends Component {
               color="#006eb0"
               onClick={e => this.openGithubUrl(e, this.props.sample.githubLink)}
             />
+            <p
+              style={{ color: '#006eb0', pointer: 'cursor' }}
+              onClick={e => this.openGithubUrl(e, this.props.sample.githubLink)}
+            >Get Source
+            </p>
           </Col>
         </Row>
 

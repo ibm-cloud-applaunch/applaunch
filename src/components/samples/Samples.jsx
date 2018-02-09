@@ -22,7 +22,7 @@ const SamplesData = [
     title: 'Fast News',
     imageUrl: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/fastnews.png',
     subTitle: 'A sample app showing basic concepts of App Launch',
-    githubLink: 'https://github.com/ibm-cloud-applaunch/fast-news',
+    githubLink: 'https://github.com/ibm-cloud-applaunch/sample-android-fast-news/tree/app-customisation',
     readmeLink: 'https://raw.githubusercontent.com/ibm-cloud-applaunch/fast-news/app-customisation/README.md',
   },
   {
@@ -57,7 +57,7 @@ class Samples extends Component {
             {sample.subTitle}
           </CardText>
         </Card>
-      </Col>);
+                      </Col>);
     });
 
     return (
