@@ -2,8 +2,13 @@
     color: #fff;
     background: #41d6c3;
     z-index: 1;
-    background-image: url("https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/background.webp");background-size: cover;
     box-shadow:inset 0 0 0 2000px rgba(43, 44, 44, 0.68);
+}
+.webp-background{
+    background-image: url("https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/background.webp");background-size: cover;
+}
+.no-webp-background{
+    background-image: url("https://raw.githubusercontent.com/ibm-cloud-applaunch/applaunch/master/src/assets/background.jpg");background-size: cover;
 }
 .Intro .intro-image{
     /* align-items: flex-end;
